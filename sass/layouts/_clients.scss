@@ -1,0 +1,50 @@
+.clients {
+    background-color: var(--white-bgc)
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.clients-logo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 0;
+}
+
+.clients-logo-item {
+}
+
+.clients-logo-link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 5px;
+    @extend %align-list;
+    justify-content: center;
+    transition: 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+        outline: 0;
+    }
+}
+
+.clients-logo-icon {
+    fill: var(--fill-color-icons);
+    transition: 250ms var(--timing-function);
+    .clients-logo-link:hover &,
+    .clients-logo-link:focus & {
+        fill: var(--accent-color);
+        outline: 0;
+    }
+}
+
+
+

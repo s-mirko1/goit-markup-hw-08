@@ -1,0 +1,114 @@
+.contacts {
+    background-color: var(--hero-bgc);
+    padding: 60px 0;
+}
+
+.contacts-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.93;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.contacts-link {}
+
+.adress {
+    font-style: normal;
+}
+
+.adress-list {
+    padding-left: 0;
+}
+
+.adress-item {
+    margin-bottom: 9px;
+}
+
+.adress-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    margin-bottom: 9px;
+    margin-top: 60px;
+}
+
+.adress-item-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-text-color);
+    transition: 250ms var(--timing-function);
+    &:hover,
+    &k:focus {
+        color: var(--accent-color);
+        outline: 0;
+    }
+}
+
+
+
+.footer-container {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.contacts-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    margin-bottom: 20px;
+}
+
+.contacts-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.contacts-soc-item {}
+
+.contacts-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    @extend %align-list;
+    justify-content: center;
+    transition: 250ms var(--timing-function);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        outline: 0;
+    }
+}
+
+.contacts-soc-icon {
+    fill: var(--white-color);
+    .contacts-soc-link:hover &,
+    .contacts-soc-link:focus & {
+        fill: var(--white-color);
+        outline: 0;
+    }
+}
+
+
+
+
+
+.footer-box-second {}
