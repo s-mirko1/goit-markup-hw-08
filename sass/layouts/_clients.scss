@@ -13,16 +13,28 @@
 
 .clients-logo {
     display: flex;
-    justify-content: center;
+    // justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
     padding-left: 0;
 }
 
 .clients-logo-item {
+    width: 100%;
+    @media screen and (min-width: 420px) {
+            width: calc((100% - 30px)/2);
+        }
+    @media screen and (min-width: 768px) {
+        width: calc((100% - 60px)/3);
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: calc((100% - 150px)/6);
+    }
 }
 
 .clients-logo-link {
-    width: 170px;
+    width: 100%;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 5px;
