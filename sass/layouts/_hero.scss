@@ -1,29 +1,76 @@
 .hero {
     background: var(--hero-bgc);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-min.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/mobile-bcg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
-    padding: 200px 0;
+    padding: 120px 0;
+    @include tablet {
+        background: var(--hero-bgc);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/tablet-bcg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        // background-size: cover;
+        max-width: 1600px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px 0;
+    }
+    @include desktop {
+        background: var(--hero-bgc);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-min.jpg);
+        background-size: cover;
+        max-width: 1600px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 200px 0;
+    }
 }
 
 .hero-title {
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.62;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
     margin: 0;
     display: block;
-    width: 696px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-
+    @include tablet {
+        font-weight: 900;
+        font-size: 26px;
+        line-height: 1.62;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--white-color);
+        margin: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        width: 360px;
+    }
+    @include desktop {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--white-color);
+        margin: 0;
+        display: block;
+        width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
 }
 
 .hero-btn {
