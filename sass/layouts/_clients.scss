@@ -22,6 +22,9 @@
 
 .clients-logo-item {
     width: 100%;
+    @media screen and (min-width: 320px) {
+        width: calc((100% - 30px)/2);
+    }
     @include mobile {
             width: calc((100% - 30px)/2);
         }

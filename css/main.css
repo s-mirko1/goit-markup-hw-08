@@ -502,6 +502,11 @@ body {
 .clients-logo-item {
   width: 100%;
 }
+@media screen and (min-width: 320px) {
+  .clients-logo-item {
+    width: calc((100% - 30px) / 2);
+  }
+}
 @media screen and (min-width: 480px) {
   .clients-logo-item {
     width: calc((100% - 30px) / 2);
