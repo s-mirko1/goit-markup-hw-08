@@ -338,9 +338,14 @@ body {
 }
 
 .product {
-  background-color: var(--white-bgc);
-  display: flex;
-  padding-top: 0;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .product {
+    display: flex;
+    padding-top: 0;
+    background-color: var(--white-bgc);
+  }
 }
 
 .product-title {

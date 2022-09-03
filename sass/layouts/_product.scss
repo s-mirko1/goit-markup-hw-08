@@ -1,7 +1,10 @@
 .product {
-    background-color: var(--white-bgc);
-    display: flex;
-    padding-top: 0;
+    display: none;
+    @include desktop {
+        display: flex;
+        padding-top: 0;
+        background-color: var(--white-bgc);
+    }
 }
 
 .product-title {
