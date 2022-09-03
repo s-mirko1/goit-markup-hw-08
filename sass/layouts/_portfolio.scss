@@ -3,6 +3,7 @@
 .portfolio-list-btn {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 8px;
     padding-left: 0;
     margin-bottom: 50px;
@@ -41,9 +42,11 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding-left: 0;
+    margin-bottom: 94px;
 }
 
 .portfolio-item {
+    width: 100%;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
@@ -51,6 +54,14 @@
     &:hover,
     &:focus {
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    @include tablet {
+        width: calc((100% - 30px)/2);
+    }
+
+    @include desktop {
+        width: calc((100% - 90px)/4);
     }
 }
 

@@ -289,6 +289,7 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   padding-left: 0;
+  margin-bottom: 60px;
 }
 
 .benefits__item {
@@ -402,6 +403,7 @@ body {
   flex-wrap: wrap;
   padding-left: 0;
   gap: 30px;
+  padding-bottom: 60px;
 }
 
 .team__item {
@@ -489,12 +491,13 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   padding-left: 0;
+  margin-bottom: 60px;
 }
 
 .clients-logo-item {
   width: 100%;
 }
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 480px) {
   .clients-logo-item {
     width: calc((100% - 30px) / 2);
   }
@@ -689,6 +692,7 @@ body {
 .portfolio-list-btn {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 8px;
   padding-left: 0;
   margin-bottom: 50px;
@@ -722,9 +726,11 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   padding-left: 0;
+  margin-bottom: 94px;
 }
 
 .portfolio-item {
+  width: 100%;
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
   margin-bottom: 30px;
@@ -732,6 +738,16 @@ body {
 }
 .portfolio-item:hover, .portfolio-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+@media screen and (min-width: 768px) {
+  .portfolio-item {
+    width: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-item {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .portfolio-top-wrap {
