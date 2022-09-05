@@ -137,7 +137,36 @@
                 <h2 class="team__title">Наша команда</h2>
                 <ul class="team__list">
                     <li class="team__item">
-                        <img class="team__img" src="./images/img.jpg" alt="фотографія члена команди 1" width="270" height="260" />
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/ihor-desk-1x  1x,
+                                ./images/img3/2x-desk/ihor-desk-2x  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/ihor-tab-1x  1x,
+                                ./images/img3/2x-tab/ihor-tab-2x  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/ihor-mob-1x  1x,
+                                ./images/img3/2x-mob/ihor-mob-2x  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/ihor-mob-1x.jpg" 
+                                alt="фотографія члена команди 1" 
+                                width="450" 
+                                height="460" 
+                            />
+                        </picture>
                         <div class="cards">
                             <h3 class="team__list-title">Ігор Дем'яненко</h3>
                             <p class="team__text">Product Designer</p>
