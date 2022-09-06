@@ -300,7 +300,6 @@
                                 height="460" 
                             />
                         </picture>
-                        <img class="team__img" src="./images/img_2.jpg" alt="фотографія члена команди 3" width="270" height="260" />
                         <div class="cards">
                             <h3 class="team__list-title">Микола Тарасов</h3>
                             <p class="team__text">Marketing</p>
@@ -337,8 +336,37 @@
                         </div>
                     </li>
                     <li class="team__item">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/mykhailo-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/mykhailo-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/mykhailo-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/mykhailo-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/mykhailo-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/mykhailo-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/mykhailo-mob-1x.jpg" 
+                                alt="фотографія члена команди 1" 
+                                width="450" 
+                                height="460" 
+                            />
+                        </picture>
                         <div class="portfolio-bottom-cards">
-                            <img class="team__img" src="./images/img_3.jpg" alt="фотографія члена команди 4" width="270" height="260" />
                             <div class="cards">
                                 <h3 class="team__list-title">Михайло Єрмаков</h3>
                                 <p class="team__text">UI Designer</p>
