@@ -834,7 +834,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .portfolio-item {
-    width: calc((100% - 90px) / 4);
+    width: calc((100% - 90px) / 3);
   }
 }
 

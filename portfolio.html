@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <!-- <header class="header">
+    <header class="header">
         <div class="container">
             <nav class="navigation">
                 <a href="./index.html" class="logo link">Web<span class="colortext">Studio</span></a>
@@ -48,7 +48,7 @@
                 </li>
             </ul>
         </div>
-    </header> -->
+    </header>
 
     <main>
         
@@ -75,7 +75,36 @@
             <ul class="portfolio-list">
                 <li class="portfolio-item">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/texno-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/texno-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/texno-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/texno-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/texno-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/texno-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/texno-mob-1x.jpg" 
+                                alt="картинка з ноутбуком" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
                             вичерпні відомості про компанію чи приватну особу.
@@ -89,7 +118,36 @@
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min-1.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/poster-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/poster-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/poster-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/poster-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/poster-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/poster-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/poster-mob-1x.jpg" 
+                                alt="картинка з постером" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
                             отримати
@@ -98,13 +156,42 @@
                     </div>
                     
                     <div class="portfolio-cards">
-                        <p class="portfolio-item-title">Технокряк</p>
-                        <p class="portfolio-item-text">Веб-сайт</p>
+                        <p class="portfolio-item-title">Постер New Orlean vs Golden Star</p>
+                        <p class="portfolio-item-text">Дизайн</p>
                     </div>
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min-2.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/restarnaut-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/restarnaut-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/restarnaut-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/restarnaut-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/restarnaut-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/restarnaut-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/restarnaut-mob-1x.jpg" 
+                                alt="картинка з логотипом" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
                             отримати
@@ -113,13 +200,42 @@
                     </div>
                     
                     <div class="portfolio-cards">
-                        <p class="portfolio-item-title">Технокряк</p>
-                        <p class="portfolio-item-text">Веб-сайт</p>
+                        <p class="portfolio-item-title">Ресторан Seafood</p>
+                        <p class="portfolio-item-text">Додаток</p>
                     </div>
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min-3.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/project-prime-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/project-prime-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/project-prime-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/project-prime-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/project-prime-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/project-prime-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/project-prime-mob-1x.jpg" 
+                                alt="картинка з навушниками" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
                             отримати
@@ -128,13 +244,42 @@
                     </div>
                     
                     <div class="portfolio-cards">
-                        <p class="portfolio-item-title">Технокряк</p>
-                        <p class="portfolio-item-text">Веб-сайт</p>
+                        <p class="portfolio-item-title">Проєкт Prime</p>
+                        <p class="portfolio-item-text">Маркетинг</p>
                     </div>
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min-4.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/project-box-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/project-box-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/project-box-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/project-box-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/project-box-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/project-box-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/project-box-mob-1x.jpg" 
+                                alt="картинка з коробками" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
                             отримати
@@ -143,13 +288,42 @@
                     </div>
                     
                     <div class="portfolio-cards">
-                        <p class="portfolio-item-title">Технокряк</p>
-                        <p class="portfolio-item-text">Веб-сайт</p>
+                        <p class="portfolio-item-title">Проєкт Boxes</p>
+                        <p class="portfolio-item-text">Додаток</p>
                     </div>
                 </li>
                 <li class="portfolio-item">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min-5.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/inspiration-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/inspiration-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/inspiration-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/inspiration-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/inspiration-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/inspiration-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/inspiration-mob-1x.jpg" 
+                                alt="картинка з монітором" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
                             отримати
@@ -158,13 +332,42 @@
                     </div>
                     
                     <div class="portfolio-cards">
-                        <p class="portfolio-item-title">Технокряк</p>
+                        <p class="portfolio-item-title">Inspiration has no Borders</p>
                         <p class="portfolio-item-text">Веб-сайт</p>
                     </div>
                 </li>
                 <li class="portfolio-item portfolio-marginoff">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min-6.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/limited-edition-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/limited-edition-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/limited-edition-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/limited-edition-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/limited-edition-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/limited-edition-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/limited-edition-mob-1x.jpg" 
+                                alt="картинка з книжкою" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
                             отримати
@@ -173,13 +376,42 @@
                     </div>
                     
                     <div class="portfolio-cards">
-                        <p class="portfolio-item-title">Технокряк</p>
-                        <p class="portfolio-item-text">Веб-сайт</p>
+                        <p class="portfolio-item-title">Видання Limited Edition</p>
+                        <p class="portfolio-item-text">Дизайн</p>
                     </div>
                 </li>
                 <li class="portfolio-item portfolio-marginoff">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min-7.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/project-lab-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/project-lab-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/project-lab-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/project-lab-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/project-lab-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/project-lab-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/project-lab-mob-1x.jpg" 
+                                alt="картинка з біркою" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
                             отримати
@@ -188,13 +420,42 @@
                     </div>
                     
                     <div class="portfolio-cards">
-                        <p class="portfolio-item-title">Технокряк</p>
-                        <p class="portfolio-item-text">Веб-сайт</p>
+                        <p class="portfolio-item-title">Проєкт LAB</p>
+                        <p class="portfolio-item-text">Маркетинг</p>
                     </div>
                 </li>
                 <li class="portfolio-item portfolio-marginoff">
                     <div class="portfolio-top-wrap">
-                        <img class="portfolio-img" src="./images/img2/img-min-8.jpg" alt="web-site" width="370" height="294">
+                        <picture>
+                            <source
+                                srcset="
+                                ./images/img3/1x-desk/growing-buisness-desk-1x.jpg  1x,
+                                ./images/img3/2x-desk/growing-buisness-desk-2x.jpg  2x
+                                "
+                                media="(min-width:1200px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-tab/growing-buisness-tab-1x.jpg  1x,
+                                ./images/img3/2x-tab/growing-buisness-tab-2x.jpg  2x
+                                "
+                                media="(min-width:768px)"
+                            >
+                            <source
+                                srcset="
+                                ./images/img3/1x-mob/growing-buisness-mob-1x.jpg  1x,
+                                ./images/img3/2x-mob/growing-buisness-mob-2x.jpg  2x
+                                "
+                                media="(max-width:767px)"
+                            >
+                            <img
+                                class="team__img" 
+                                src="./images/img3/1x-mob/growing-buisness-mob-1x.jpg" 
+                                alt="картинка з ноутбуком" 
+                                width="450" 
+                                height="294" 
+                            />
+                        </picture>
                         <p class="portfolio-top-text">
                             Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу
                             отримати
@@ -203,8 +464,8 @@
                     </div>
                     
                     <div class="portfolio-cards">
-                        <p class="portfolio-item-title">Технокряк</p>
-                        <p class="portfolio-item-text">Веб-сайт</p>
+                        <p class="portfolio-item-title">Growing Business</p>
+                        <p class="portfolio-item-text">Додаток</p>
                     </div>
                 </li>
             </ul>

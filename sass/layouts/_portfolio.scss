@@ -43,6 +43,7 @@
     flex-wrap: wrap;
     padding-left: 0;
     margin-bottom: 94px;
+    // gap: 30px;
 }
 
 .portfolio-item {
@@ -61,7 +62,7 @@
     }
 
     @include desktop {
-        width: calc((100% - 90px)/4);
+        width: calc((100% - 90px)/3);
     }
 }
 
