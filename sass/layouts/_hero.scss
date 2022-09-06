@@ -10,6 +10,7 @@
     background-size: cover;
     @media screen and (min-width: 320px) {
         padding: 100px 0;
+        background-image: var(--bcg-gradient), url(/images/mobile-bcg.jpg);
     }
     @include retina {
         background-image: var(--bcg-gradient), url(/images/hero-bg-mob-2x.png);
