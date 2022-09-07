@@ -121,9 +121,33 @@
 
 }
 
+.header-mob {
+    display: flex;
+}
+
+.logo-mob {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    margin-top: 16px;
+    margin-left: 15px;
+    margin-bottom: 16px;
+}
+
 .menu-open-btn {
     display: flex;
+    align-items: center;
     margin-left: auto;
+    background-color: var(--white-bgc);
+    margin-top: 10px;
+    margin-right: 15px;
+    border: none;
+    width: 40px;
+    height: 40px;
 }
 
 .mob-menu {
