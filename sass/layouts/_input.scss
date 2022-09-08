@@ -32,7 +32,7 @@
 
 .policy-link {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--accent-color);
@@ -62,12 +62,15 @@
 
 .check-text {
     font-weight: 400;
-    font-size: 14px;
+    // font-size: 14px;
+    font-size: 12px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
     @extend %align-list;
     justify-content: center;
+    display: flex;
+    padding-right: 17px;
     margin-top: 20px;
     & span {
         width: 16px;
@@ -87,6 +90,9 @@
             fill: #FFFFFF;
         }
 }
+    @media screen and (min-width 1200px) {
+        font-size: 14px;
+    }
 }
 
 
