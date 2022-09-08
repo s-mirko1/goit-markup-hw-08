@@ -2,6 +2,13 @@
     background-color: var(--white-bgc);
     @extend %align-list;
     display: none;
+    @media screen and (min-width: 768px) {
+            display: flex;
+     }
+    
+    @media screen and (min-width: 1200px) {
+            display: flex;
+    }
 }
 
 
@@ -86,6 +93,13 @@
     display: flex;
     margin-left: auto;
     display: none;
+    @media screen and (min-width: 768px) {
+        display: flex;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
 }
 
 .feedback__link {
@@ -123,6 +137,12 @@
 
 .header-mob {
     display: flex;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
 }
 
 .logo-mob {
