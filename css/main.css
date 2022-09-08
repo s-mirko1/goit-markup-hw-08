@@ -286,6 +286,16 @@ body {
   border: none;
   width: 40px;
   height: 40px;
+  cursor: pointer;
+}
+
+.menu-open-btn:hover,
+.menu-open-btn:focus {
+  fill: var(--accent-color);
+}
+
+.open-icon {
+  cursor: pointer;
 }
 
 .mob-menu {
@@ -316,9 +326,15 @@ body {
   width: 40px;
 }
 
+.menu-close-btn:hover,
+.menu-close-btn:focus {
+  fill: var(--accent-color);
+}
+
 .close-icon {
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
 
 .mob-menu-item:not(:last-child) {
@@ -361,11 +377,24 @@ body {
 .mob-soc-list {
   margin-top: 64px;
   display: flex;
-  gap: 20px;
 }
 
 .mob-soc-item:not(:last-child) {
   margin-bottom: 20px;
+}
+
+.mob-soc-item {
+  display: flex;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mob-soc-item:first-child {
+  padding-left: 0px;
+}
+.mob-soc-item:last-child {
+  border-right: none;
+  padding-right: 0px;
 }
 
 .mob-soc-link {
