@@ -853,6 +853,9 @@ body {
 
 .adress-list {
   padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .adress-item {
@@ -884,10 +887,9 @@ body {
 
 .footer-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 70px;
-  align-items: baseline;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .contacts-text {
@@ -928,6 +930,18 @@ body {
   outline: 0;
 }
 
+.footer-box-first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-box-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .online-text {
   font-weight: 700;
   font-size: 14px;
@@ -936,6 +950,14 @@ body {
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.online-form {
+  display: flex;
+  flex-direction: column;
 }
 
 .online-input {
@@ -943,11 +965,12 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  width: 358px;
+  width: 450px;
   height: 50px;
   margin-right: 12px;
   padding-left: 16px;
   color: var(--white-color);
+  margin-bottom: 20px;
 }
 .online-input::placeholder {
   font-weight: 400;

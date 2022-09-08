@@ -23,6 +23,9 @@
 
 .adress-list {
     padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .adress-item {
@@ -56,12 +59,16 @@
 
 
 .footer-container {
+    // display: flex;
+    // gap: 70px;
+    // align-items: baseline;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 70px;
-    align-items: baseline;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+    
 }
 
 .contacts-text {
@@ -109,6 +116,14 @@
 
 
 
+.footer-box-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-.footer-box-second {}
+.footer-box-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
