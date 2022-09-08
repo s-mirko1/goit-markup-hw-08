@@ -26,10 +26,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 60px;
+    @media screen and(min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+    }
 }
 
 .adress-item {
     margin-bottom: 9px;
+    @media screen and(min-width: 1200px) {
+        margin-bottom: 9px;
+    }
 }
 
 .adress-link {
@@ -40,6 +48,7 @@
     color: var(--white-color);
     margin-bottom: 9px;
     margin-top: 60px;
+    
 }
 
 .adress-item-link {
@@ -68,7 +77,24 @@
     flex-direction: column;
     align-items: center;
     gap: 70px;
-    
+    @media screen and(min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 0;
+    }
+}
+
+.footer-sections {
+    @media screen and(min-width: 768px) {
+        display: flex;
+        align-items: baseline;
+        // justify-content: space-between;
+        gap: 165px;
+    }
+    @media screen and(min-width: 1200px) {
+        gap: 0;
+    }
 }
 
 .contacts-text {
@@ -120,10 +146,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and(min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+        margin-right: 70px;
+    }
 }
 
 .footer-box-second {
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and(min-width: 1200px) {
+        display: flex;
+        align-items: baseline;
+        margin-right: 93px;
+    }
 }

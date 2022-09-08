@@ -247,6 +247,7 @@ body {
 @media screen and (min-width: 1200px) {
   .feedback {
     display: flex;
+    flex-direction: row;
   }
 }
 
@@ -856,10 +857,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .adress-list {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .adress-item {
   margin-bottom: 9px;
+}
+@media screen and (min-width: 1200px) {
+  .adress-item {
+    margin-bottom: 9px;
+  }
 }
 
 .adress-link {
@@ -890,6 +903,27 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 70px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-sections {
+    display: flex;
+    align-items: baseline;
+    gap: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-sections {
+    gap: 0;
+  }
 }
 
 .contacts-text {
@@ -935,11 +969,25 @@ body {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer-box-first {
+    display: flex;
+    align-items: baseline;
+    margin-right: 70px;
+  }
+}
 
 .footer-box-second {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-box-second {
+    display: flex;
+    align-items: baseline;
+    margin-right: 93px;
+  }
 }
 
 .online-text {
@@ -954,10 +1002,22 @@ body {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .online-text {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+}
 
 .online-form {
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 1200px) {
+  .online-form {
+    display: flex;
+  }
 }
 
 .online-input {
@@ -979,6 +1039,11 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+@media screen and (min-width: 1200px) {
+  .online-input {
+    width: 358px;
+  }
+}
 
 .online-button {
   background: var(--accent-color);
@@ -998,6 +1063,13 @@ body {
   cursor: pointer;
   top: 50%;
   padding-right: 62px;
+}
+@media screen and (min-width: 1200px) {
+  .online-button {
+    margin: 0;
+    width: 200px;
+    height: 50px;
+  }
 }
 
 .online-icon {
