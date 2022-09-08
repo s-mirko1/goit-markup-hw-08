@@ -241,6 +241,7 @@ body {
 @media screen and (min-width: 768px) {
   .feedback {
     display: flex;
+    flex-direction: column;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1119,6 +1120,12 @@ body {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0) rotate(-180deg);
 }
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
+}
 
 .modal-close {
   position: absolute;
@@ -1201,6 +1208,11 @@ body {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+@media screen and (min-width: 1200px) {
+  .modal-text {
+    width: 448px;
+  }
 }
 
 .form-input {
@@ -1287,7 +1299,7 @@ body {
   border-color: var(--accent-color);
   fill: #FFFFFF;
 }
-@media screen and (min-width 1200px) {
+@media screen and (min-width: 1200px) {
   .check-text {
     font-size: 14px;
   }
