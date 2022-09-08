@@ -37,6 +37,9 @@
     letter-spacing: 0.03em;
     color: var(--accent-color);
     padding-left: 4px;
+    @media screen and(min-width: 1200px) {
+        font-size: 14px;
+    }
 }
 
 .input-field {
@@ -104,6 +107,15 @@
         fill: #FFFFFF;
     }
 }
+
+
+.input-check:checked+.check-text span {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    fill: #FFFFFF;
+}
+
+
 
 
 

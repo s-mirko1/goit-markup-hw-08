@@ -1014,9 +1014,15 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 767px) {
   .online-form {
     display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .online-form {
+    display: block;
+    margin-left: 20px;
   }
 }
 
@@ -1347,6 +1353,11 @@ body {
   color: var(--accent-color);
   padding-left: 4px;
 }
+@media screen and (min-width: 1200px) {
+  .policy-link {
+    font-size: 14px;
+  }
+}
 
 .input-field {
   margin-bottom: 10px;
@@ -1405,5 +1416,11 @@ body {
   transition: fill 250ms linear;
 }
 .input-check:checked + .check-text .check-icon {
+  fill: #FFFFFF;
+}
+
+.input-check:checked + .check-text span {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
   fill: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
