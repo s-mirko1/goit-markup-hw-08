@@ -444,7 +444,7 @@ body {
 
 .hero {
   background: var(--hero-bgc);
-  background-image: var(--bcg-gradient), url(/images/mobile-bcg.jpg);
+  background-image: var(--bcg-gradient), url(../images/mobile-bcg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1600px;
