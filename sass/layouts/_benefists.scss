@@ -1,5 +1,10 @@
 .benefits {
     background: var(--white-bgc);
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 94px;
+        margin-top: 94px;
+        padding-top: 0;
+    }
 }
 
 .benefits__list {
@@ -43,7 +48,10 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-text-color);
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .benefits__text {

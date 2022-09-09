@@ -133,7 +133,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .container-menu {
-    width: 480px;
+    max-width: 767px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -569,6 +569,13 @@ body {
 .benefits {
   background: var(--white-bgc);
 }
+@media screen and (min-width: 1200px) {
+  .benefits {
+    margin-bottom: 94px;
+    margin-top: 94px;
+    padding-top: 0;
+  }
+}
 
 .benefits__list {
   display: flex;
@@ -614,6 +621,11 @@ body {
   text-transform: uppercase;
   color: var(--primary-text-color);
   margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .benefits__title {
+    text-align: center;
+  }
 }
 
 .benefits__text {
@@ -679,6 +691,12 @@ body {
 .team {
   background-color: var(--third-white-color);
 }
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}
 
 .team__title {
   font-weight: 700;
@@ -689,6 +707,20 @@ body {
   color: var(--primary-text-color);
   margin-bottom: 50px;
 }
+@media screen and (max-width: 767px) {
+  .team__title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.17;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team__title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.17;
+  }
+}
 
 .team__list {
   display: flex;
@@ -696,6 +728,11 @@ body {
   padding-left: 0;
   gap: 30px;
   padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .team__list {
+    padding-bottom: 0;
+  }
 }
 
 .team__item {
@@ -768,6 +805,13 @@ body {
 .clients {
   background-color: var(--white-bgc);
 }
+@media screen and (min-width: 1200px) {
+  .clients {
+    margin-bottom: 94px;
+    margin-top: 94px;
+    padding-top: 0;
+  }
+}
 
 .clients-title {
   font-weight: 700;
@@ -776,6 +820,20 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+  .clients-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.17;
+  }
+}
+@media screen and (min-width: 768px) {
+  .clients-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.17;
+  }
 }
 
 .clients-logo {
@@ -835,6 +893,11 @@ body {
 .contacts {
   background-color: var(--hero-bgc);
   padding: 60px 0;
+}
+@media screen and (min-width: 1200px) {
+  .contacts {
+    padding-bottom: 0;
+  }
 }
 
 .contacts-link {
@@ -904,6 +967,11 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 70px;
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    gap: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer-container {
@@ -1017,7 +1085,7 @@ body {
 }
 @media screen and (max-width: 767px) {
   .online-form {
-    display: flex;
+    display: block;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1045,6 +1113,12 @@ body {
   line-height: 20px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (max-width: 767px) {
+  .online-input {
+    width: 100%;
+    margin-right: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .online-input {
@@ -1086,6 +1160,21 @@ body {
   margin-left: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio {
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    margin-bottom: 94px;
+    margin-top: 94px;
+    padding-top: 0;
+  }
+}
+
 .portfolio-list-btn {
   display: flex;
   justify-content: center;
@@ -1093,6 +1182,17 @@ body {
   gap: 8px;
   padding-left: 0;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+  .portfolio-list-btn {
+    margin-bottom: 40px;
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-list-btn {
+    margin-bottom: 30px;
+  }
 }
 
 .portfolio-btn {
@@ -1126,6 +1226,16 @@ body {
   margin-bottom: 94px;
   gap: 30px;
 }
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-list {
+    margin-bottom: 0;
+  }
+}
 
 .portfolio-item {
   width: 100%;
@@ -1145,6 +1255,23 @@ body {
 @media screen and (min-width: 1200px) {
   .portfolio-item {
     width: calc((100% - 90px) / 3);
+  }
+}
+@media screen and (max-width: 767px) {
+  .portfolio-item {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .portfolio-item {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio-item {
+    width: 370px;
+    height: 404px;
+    margin-bottom: 0;
   }
 }
 

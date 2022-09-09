@@ -24,7 +24,7 @@
         width: 100%;
     
         @include mobile {
-            width: 480px;
+            max-width: 767px;
         }
     
         @include tablet {

@@ -1,5 +1,9 @@
 .team {
     background-color: var(--third-white-color);
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
 
 }
 
@@ -11,6 +15,16 @@
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     margin-bottom: 50px;
+    @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+        font-size: 28px;
+        line-height: 1.17;
+    }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 30px;
+        font-size: 28px;
+        line-height: 1.17;
+    }
 }
 
 .team__list {
@@ -19,6 +33,9 @@
     padding-left: 0;
     gap: 30px;
     padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 0;
+    }
 }
 
 .team__item {
